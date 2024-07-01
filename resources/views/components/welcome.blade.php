@@ -52,11 +52,9 @@
 
 <div class="status-indicator">
     <label for="status">Estado:</label>
-    <select id="status" name="status">
-        <option value="enviar">Enviar</option>
-        <option value="aprobado">Aprobado</option>
-        <option value="desaprobado">Desaprobado</option>
-    </select>
+    <label id="status" name="status">
+        <input type="text" value="Pendiente" readonly></input>
+    </label>
 </div>
 
 <script>

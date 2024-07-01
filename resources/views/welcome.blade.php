@@ -39,38 +39,56 @@
                                         Dashboard
                                     </a>
                                 @else
-                                    <a
+                                
+                <section class="relative custom-section">
+                    <div class="absolute top-4 right-4">
+                        <button class="custom-button py-2 px-4 rounded-lg">
+                            <a
                                         href="{{ route('login') }}"
                                         class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20]"
                                     >
                                         Log in
                                     </a>
-
-                                    @if (Route::has('register'))
+                        </button>
+                    
+                            <button class="custom-button py-2 px-4 rounded-lg">
+                         @if (Route::has('register'))
                                         <a
                                             href="{{ route('register') }}"
                                             class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20]"
                                         >
                                             Register
                                         </a>
+                            </button>
                                     @endif
                                 @endauth
                             </nav>
                         @endif
+                    </div>
+                </section>
+                                    
+
+                                   
                     </header>
                 
                     <style>
-                        .custom-button {
-                            background: linear-gradient(45deg, #6b7280, #9ca3af);
-                            border: 2px solid #6b7280;
-                            color: #fff;
-                            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                        .custom-button{
+                            background: linear-gradient(45deg, #adc8ff, #7aa6f4);
+                            border: 2px solid #ffffff;
+                            box-shadow: 0 4px 6px rgba(110, 233, 206, 0.1);
                             transition: all 0.3s ease;
+                    
+                        }
+                        a{
+                            text-decoration: none;
                         }
                         .custom-button:hover {
-                            background: linear-gradient(45deg, #9ca3af, #d1d5db);
+                            background: linear-gradient(45deg, #ccdfff, #ffdbbd);
                             transform: translateY(-3px);
-                            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+                            box-shadow: 0 8px 12px rgba(255, 252, 252, 0.818);
+                        }
+                        a:hover{
+                            text-decoration: none;
                         }
                         .custom-section {
                             background-image: url('assets/img/portada.jpg');
@@ -81,17 +99,7 @@
                         }
                     </style>
 
-                <section class="relative custom-section">
-                    <div class="absolute top-4 right-4">
-                        <button class="custom-button py-2 px-4 rounded-lg">
-                            Login
-                        </button>
-                        <button class="custom-button py-2 px-4 rounded-lg">
-                            Registro
-                        </button>
-                    </div>
-                </section>
-                    <!-- Image Showcases-->
+
 <br>
 
 
