@@ -58,6 +58,7 @@
                             </nav>
                         @endif
                     </header>
+                
                     <style>
                         .custom-button {
                             background: linear-gradient(45deg, #6b7280, #9ca3af);
@@ -71,18 +72,22 @@
                             transform: translateY(-3px);
                             box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
                         }
+                        .custom-section {
+                            background-image: url('assets/img/portada.jpg');
+                            background-size: cover;
+                            background-position: center;
+                            width: 100%;
+                            height: 90vh; 
+                        }
                     </style>
 
-                
-                <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('assets/img/bg-showcase-1.jpg')">
+                <section class="relative custom-section">
                     <div class="absolute top-4 right-4">
                         <button class="custom-button py-2 px-4 rounded-lg">
                             Texto
                         </button>
                     </div>
                 </section>
-                
-                    
                     <!-- Image Showcases-->
 <br>
 

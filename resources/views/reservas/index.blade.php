@@ -1,3 +1,4 @@
+ 
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -300,7 +301,7 @@
             <span> <span class="count">0</span> Tickets </span>
             <div class="amount">0</div>
           </div>
-          <button type="button">Book</button>
+          <a href="{{ route('profile.show') }}">Guardar</a>
         </div>
       </div>
     </div>
