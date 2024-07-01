@@ -58,15 +58,30 @@
                             </nav>
                         @endif
                     </header>
+                    <style>
+                        .custom-button {
+                            background: linear-gradient(45deg, #6b7280, #9ca3af);
+                            border: 2px solid #6b7280;
+                            color: #fff;
+                            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                            transition: all 0.3s ease;
+                        }
+                        .custom-button:hover {
+                            background: linear-gradient(45deg, #9ca3af, #d1d5db);
+                            transform: translateY(-3px);
+                            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+                        }
+                    </style>
 
-
-                    <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('assets/img/bg-showcase-1.jpg')">
-                        <div class="absolute top-40 right-40">
-                            <button class="bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded-lg shadow-lg hover:bg-gray-400 hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                                Texto
-                            </button>
-                        </div>
-                    </section>
+                
+                <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('assets/img/bg-showcase-1.jpg')">
+                    <div class="absolute top-4 right-4">
+                        <button class="custom-button py-2 px-4 rounded-lg">
+                            Texto
+                        </button>
+                    </div>
+                </section>
+                
                     
                     <!-- Image Showcases-->
 <br>
@@ -97,7 +112,7 @@
                                                             <div class="col-lg-4">
                                     <div class="testimonials bg-light">
                                                     <div class="testimonial-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                                        <img  src="/assets/img/co_tipos/estandar.png" alt="..." />
+                                                        <img  src="/assets/img/co_tipos/refrigerado.png" alt="..." />
                                                         <h3>Contenedor Refrigerado</h3>
                                                         <p class="lead mb-0">Sistema de refrigeración integrado para una temperatura controlada dentro del contenedor. Transporta productos perecederos, alimentos congelados o frescos.</p>
                                                         <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
@@ -107,7 +122,7 @@
                                                 <div class="col-lg-4">
                                                     <div class="testimonials bg-light">
                                                                     <div class="testimonial-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                                                        <img  src="/assets/img/co_tipos/estandar.png" alt="..." />
+                                                                        <img  src="/assets/img/co_tipos/ventilado.png" alt="..." />
                                                                         <h3>Contenedor Ventilado</h3>
                                         <p class="lead mb-0">Con aberturas para permitir la circulación de aire y evitar la condensación. Para frutas, verduras, etc.</p>
                                         <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
