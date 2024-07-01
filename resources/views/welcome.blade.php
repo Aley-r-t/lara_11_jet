@@ -62,7 +62,16 @@
                     <section class="features-icons bg-light text-center">
                         <div class="container">
                             <div class="row">
-                                <img class="img-fluid rounded-circle mb-3" src="/assets/img/testimonials-2.jpg" alt="..." />
+                                <div class="col-lg-4">
+                                    <div class="testimonials bg-light">
+                                                    <div class="testimonial-item mx-auto mb-344 mb-lg-0">
+                                                        <img class="img-fluid rounded-circle mb-3" src="/assets/img/testimonials-1.jpg" alt="..." />
+                                                        <h3>Contenedor Refrigerado</h3>
+                                        <p class="lead mb-0">Sistema de refrigeración integrado para una temperatura controlada dentro del contenedor. Transporta productos perecederos, alimentos congelados o frescos.</p>
+                                        <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
+                                                    </div>
+                                                </div>
+                                            </div>
            
                                 <div class="col-lg-4">
                                     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
