@@ -59,6 +59,28 @@
                         @endif
                     </header>
 
+
+                    <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('assets/img/bg-showcase-1.jpg')">
+                        <div class="absolute top-40 right-40">
+                            <button class="bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded-lg shadow-lg hover:bg-gray-400 hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                                Texto
+                            </button>
+                        </div>
+                    </section>
+                    
+                    <!-- Image Showcases-->
+<br>
+
+
+                    <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('assets/img/bg-showcase-1.jpg')">
+                        <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+                            <div class="text-center text-white p-6 rounded-lg">
+                                <h2 class="text-4xl font-bold mb-4">Fully Responsive Design</h2>
+                                <p class="text-lg">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+                            </div>
+                        </div>
+                    </section>
+                        
                     <section class="features-icons bg-light text-center">
                         <div class="container">
                             <div class="row">
@@ -76,23 +98,42 @@
                                     <div class="testimonials bg-light">
                                                     <div class="testimonial-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                                         <img  src="/assets/img/co_tipos/estandar.png" alt="..." />
-                                                        <h3>Contenedor Estándar</h3>
-                                        <p class="lead mb-0">Suele ser de acero corrugado y estándar en dimensiones (20 pies o 40 pies de largo aprox.). Transporta gama de mercancías no perecederas.</p>
-                                        <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
-                                                    </div>
+                                                        <h3>Contenedor Refrigerado</h3>
+                                                        <p class="lead mb-0">Sistema de refrigeración integrado para una temperatura controlada dentro del contenedor. Transporta productos perecederos, alimentos congelados o frescos.</p>
+                                                        <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
                                                 </div>
                                                 </div>
+                                            </div>
                                                 <div class="col-lg-4">
                                                     <div class="testimonials bg-light">
                                                                     <div class="testimonial-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                                                         <img  src="/assets/img/co_tipos/estandar.png" alt="..." />
-                                                                        <h3>Contenedor Estándar</h3>
-                                                        <p class="lead mb-0">Suele ser de acero corrugado y estándar en dimensiones (20 pies o 40 pies de largo aprox.). Transporta gama de mercancías no perecederas.</p>
-                                                        <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
+                                                                        <h3>Contenedor Ventilado</h3>
+                                        <p class="lead mb-0">Con aberturas para permitir la circulación de aire y evitar la condensación. Para frutas, verduras, etc.</p>
+                                        <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
                                                                     </div>
                                                                 </div>
                                                                 </div>
-           
+                                                                <div class="col-lg-4">
+                                                                    <div class="testimonials bg-light">
+                                                                                    <div class="testimonial-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                                                                        <img  src="/assets/img/co_tipos/estandar.png" alt="..." />
+                                                                                        <h3>Contenedor Cisterna</h3>
+                                                                                        <p class="lead mb-0">Indicado para el transporte de líquidos, productos químicos, vinos, aceites, etc. Herméticamente sellados para evitar fugas</p>
+                                                                                        <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
+                                                                                    </div>
+                                                                                </div>
+                                                                                </div>
+                                                                                <div class="col-lg-4">
+                                                                                    <div class="testimonials bg-light">
+                                                                                                    <div class="testimonial-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                                                                                        <img  src="/assets/img/co_tipos/estandar.png" alt="..." />
+                                                                                                        <h3>Contenedor Doble Puerta</h3>
+                                                                                                        <p class="lead mb-0">Puertas en ambos extremos.</p>
+                                                                                                        <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                </div>
                                 </div>
                             </div>
                         </div>
