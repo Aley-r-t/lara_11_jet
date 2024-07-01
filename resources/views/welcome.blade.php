@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Home</title>
+        <link href="/assets/img/logo.png" rel="icon" type="img/png">
 
         <!-- Fonts -->
        
@@ -61,26 +62,37 @@
                     <section class="features-icons bg-light text-center">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                        <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
-                                        <h3>Fully Responsive</h3>
-                                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
-                                    </div>
-                                </div>
+                                <img class="img-fluid rounded-circle mb-3" src="/assets/img/testimonials-2.jpg" alt="..." />
+           
                                 <div class="col-lg-4">
                                     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                         <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
-                                        <h3>Bootstrap 5 Ready</h3>
-                                        <p class="lead mb-0">Featuring the latest build of the new Bootstrap 5 framework!</p>
+                                        <h3>Contenedor Refrigerado</h3>
+                                        <p class="lead mb-0">Sistema de refrigeración integrado para una temperatura controlada dentro del contenedor. Transporta productos perecederos, alimentos congelados o frescos.</p>
+                                        <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="features-icons-item mx-auto mb-0 mb-lg-3">
                                         <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
-                                        <h3>Easy to Use</h3>
-                                        <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+                                        <h3>Contenedor Ventilado</h3>
+                                        <p class="lead mb-0">Con aberturas para permitir la circulación de aire y evitar la condensación. Para frutas, verduras, etc.</p>
+                                        <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
                                     </div>
+                                    <div class="col-lg-4">
+                                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                                            <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
+                                            <h3>Contenedor Cisterna</h3>
+                                            <p class="lead mb-0">Indicado para el transporte de líquidos, productos químicos, vinos, aceites, etc. Herméticamente sellados para evitar fugas</p>
+                                            <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                                                <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
+                                                <h3>Contenedor Doble Puerta</h3>
+                                                <p class="lead mb-0">Puertas en ambos extremos.</p>
+                                                <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
+                                            </div>
                                 </div>
                             </div>
                         </div>
@@ -227,6 +239,8 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 
             
