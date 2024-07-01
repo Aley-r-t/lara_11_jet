@@ -84,7 +84,10 @@
                 <section class="relative custom-section">
                     <div class="absolute top-4 right-4">
                         <button class="custom-button py-2 px-4 rounded-lg">
-                            Texto
+                            Login
+                        </button>
+                        <button class="custom-button py-2 px-4 rounded-lg">
+                            Registro
                         </button>
                     </div>
                 </section>
