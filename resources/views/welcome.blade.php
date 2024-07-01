@@ -64,44 +64,35 @@
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="testimonials bg-light">
-                                                    <div class="testimonial-item mx-auto mb-344 mb-lg-0">
-                                                        <img class="img-fluid rounded-circle mb-3" src="/assets/img/testimonials-1.jpg" alt="..." />
-                                                        <h3>Contenedor Refrigerado</h3>
-                                        <p class="lead mb-0">Sistema de refrigeración integrado para una temperatura controlada dentro del contenedor. Transporta productos perecederos, alimentos congelados o frescos.</p>
+                                                    <div class="testimonial-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                                        <img  src="/assets/img/co_tipos/estandar.png" alt="..." />
+                                                        <h3>Contenedor Estándar</h3>
+                                        <p class="lead mb-0">Suele ser de acero corrugado y estándar en dimensiones (20 pies o 40 pies de largo aprox.). Transporta gama de mercancías no perecederas.</p>
                                         <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
                                                     </div>
                                                 </div>
-                                            </div>
+                                                </div>
+                                                            <div class="col-lg-4">
+                                    <div class="testimonials bg-light">
+                                                    <div class="testimonial-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                                        <img  src="/assets/img/co_tipos/estandar.png" alt="..." />
+                                                        <h3>Contenedor Estándar</h3>
+                                        <p class="lead mb-0">Suele ser de acero corrugado y estándar en dimensiones (20 pies o 40 pies de largo aprox.). Transporta gama de mercancías no perecederas.</p>
+                                        <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="testimonials bg-light">
+                                                                    <div class="testimonial-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                                                        <img  src="/assets/img/co_tipos/estandar.png" alt="..." />
+                                                                        <h3>Contenedor Estándar</h3>
+                                                        <p class="lead mb-0">Suele ser de acero corrugado y estándar en dimensiones (20 pies o 40 pies de largo aprox.). Transporta gama de mercancías no perecederas.</p>
+                                                        <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
+                                                                    </div>
+                                                                </div>
+                                                                </div>
            
-                                <div class="col-lg-4">
-                                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                        <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
-                                        <h3>Contenedor Refrigerado</h3>
-                                        <p class="lead mb-0">Sistema de refrigeración integrado para una temperatura controlada dentro del contenedor. Transporta productos perecederos, alimentos congelados o frescos.</p>
-                                        <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                                        <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
-                                        <h3>Contenedor Ventilado</h3>
-                                        <p class="lead mb-0">Con aberturas para permitir la circulación de aire y evitar la condensación. Para frutas, verduras, etc.</p>
-                                        <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                                            <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
-                                            <h3>Contenedor Cisterna</h3>
-                                            <p class="lead mb-0">Indicado para el transporte de líquidos, productos químicos, vinos, aceites, etc. Herméticamente sellados para evitar fugas</p>
-                                            <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                                                <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
-                                                <h3>Contenedor Doble Puerta</h3>
-                                                <p class="lead mb-0">Puertas en ambos extremos.</p>
-                                                <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
-                                            </div>
                                 </div>
                             </div>
                         </div>
