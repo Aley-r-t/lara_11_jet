@@ -19,6 +19,13 @@
          <link href="/assets/css/styles.css" rel="stylesheet" />
     </head>
     <body class="font-sans antialiased">
+         <!-- Navigation-->
+         <nav class="navbar navbar-light bg-light static-top">
+            <div class="container">
+              
+            </div>
+        </nav>
+        <!-- Masthead-->
                     <header class="grid grid-cols-2 items-center gap-2 py-10 lg:grid-cols-3">
                        
                         @if (Route::has('login'))
