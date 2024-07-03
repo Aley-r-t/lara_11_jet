@@ -48,6 +48,9 @@
 <div class="file-upload">
     <label for="file-upload">Subir archivo PDF:</label>
     <input type="file" id="file-upload" name="file-upload" accept="application/pdf">
+    <button>
+        Enviar Datos
+    </button>
 </div>
 
 <div class="status-indicator">
@@ -55,6 +58,7 @@
     <label id="status" name="status">
         <input type="text" value="Pendiente" readonly></input>
     </label>
+
 </div>
 
 <script>
@@ -81,6 +85,51 @@
         } else {
             console.log('Por favor, seleccione un archivo PDF.');
         }
+    });
+    
+
+    document.getElementById('guardar-btn').addEventListener('click', () => {
+        const tipoSeleccionado = document.querySelector('.button-container button.seleccionado');
+        const fechaInicio = document.getElementById('start-date').value;
+        const fechaFin = document.getElementById('end-date').value;
+        const archivo = document.getElementById('file-upload').files[0];
+        const estado = document.querySelector('#status input').value;
+
+        if (!tipoSeleccionado || !fechaInicio || !fechaFin || !archivo) {
+            alert('Por favor, complete todos los campos antes de guardar.');
+            return;
+        }
+
+        const formData = new FormData();
+        formData.append('tipo', tipoSeleccionado.id);
+        formData.append('fecha_inicio', fechaInicio);
+        formData.append('fecha_fin', fechaFin);
+        formData.append('archivo', archivo);
+        formData.append('estado', estado);
+
+        fetch('/reservas', {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert(data.message);
+        I
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Hubo un error al guardar los datos. Por favor, intente de nuevo.');
+        });
+    });
+
+    document.querySelectorAll('.button-container button').forEach(button => {
+        button.addEventListener('click', (event) => {
+            document.querySelectorAll('.button-container button').forEach(btn => btn.classList.remove('seleccionado'));
+            event.target.classList.add('seleccionado');
+        });
     });
 </script>
 

@@ -98,16 +98,12 @@
                             height: 90vh; 
                         }
                     </style>
-
-
 <br>
-
-
-                    <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('assets/img/bg-showcase-1.jpg')">
+                    <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('assets/img/co_tipos/estandar.png')">
                         <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
                             <div class="text-center text-white p-6 rounded-lg">
-                                <h2 class="text-4xl font-bold mb-4">Fully Responsive Design</h2>
-                                <p class="text-lg">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+                                <h2 class="text-4xl font-bold mb-4">A L M A C E N A</h2>
+                                <p class="text-lg">Almacena </p>
                             </div>
                         </div>
                     </section>
@@ -128,7 +124,7 @@
                                                             <div class="col-lg-4">
                                     <div class="testimonials bg-light">
                                                     <div class="testimonial-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                                        <img  src="/assets/img/co_tipos/refrigerado.png" alt="..." />
+                                                        <img  src="/assets/img/co_tipos/refrigerado.jpeg" alt="..." />
                                                         <h3>Contenedor Refrigerado</h3>
                                                         <p class="lead mb-0">Sistema de refrigeración integrado para una temperatura controlada dentro del contenedor. Transporta productos perecederos, alimentos congelados o frescos.</p>
                                                         <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
@@ -138,7 +134,7 @@
                                                 <div class="col-lg-4">
                                                     <div class="testimonials bg-light">
                                                                     <div class="testimonial-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                                                        <img  src="/assets/img/co_tipos/ventilado.png" alt="..." />
+                                                                        <img  src="/assets/img/co_tipos/ventilado.jpg" alt="..." />
                                                                         <h3>Contenedor Ventilado</h3>
                                         <p class="lead mb-0">Con aberturas para permitir la circulación de aire y evitar la condensación. Para frutas, verduras, etc.</p>
                                         <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
@@ -148,7 +144,7 @@
                                                                 <div class="col-lg-4">
                                                                     <div class="testimonials bg-light">
                                                                                     <div class="testimonial-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                                                                        <img  src="/assets/img/co_tipos/estandar.png" alt="..." />
+                                                                                        <img  src="/assets/img/co_tipos/cisterna.jpg" alt="..." />
                                                                                         <h3>Contenedor Cisterna</h3>
                                                                                         <p class="lead mb-0">Indicado para el transporte de líquidos, productos químicos, vinos, aceites, etc. Herméticamente sellados para evitar fugas</p>
                                                                                         <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
@@ -158,7 +154,7 @@
                                                                                 <div class="col-lg-4">
                                                                                     <div class="testimonials bg-light">
                                                                                                     <div class="testimonial-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                                                                                        <img  src="/assets/img/co_tipos/estandar.png" alt="..." />
+                                                                                                        <img  src="/assets/img/co_tipos/doblepuerta.jpg" alt="..." />
                                                                                                         <h3>Contenedor Doble Puerta</h3>
                                                                                                         <p class="lead mb-0">Puertas en ambos extremos.</p>
                                                                                                         <p class="lead mb-1">Accede y reserva su espacio<ion-icon name="caret-forward-circle-outline"></ion-icon></p>
