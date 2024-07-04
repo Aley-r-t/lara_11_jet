@@ -13,6 +13,7 @@ class tipos extends Model
 
     protected $fillable = [
         'tipo',
+        'total_espacio'
         'ancho',
         'largo',
         'peso_max',

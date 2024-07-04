@@ -36,14 +36,16 @@
     </style>
 </head>
 <body>
-
     <div class="button-container">
-        <button id="type-a">Tipo A</button>
-        <button id="type-b">Tipo B</button>
-        <button id="type-c">Tipo C</button>
-        <button id="type-d">Tipo D</button>
-        <button id="type-e">Tipo E</button>
+        <button id="type-a" name="estado">Tipo A</button>
+        <button id="type-b" name="estado">Tipo B</button>
+        <button id="type-c" name="estado">Tipo C</button>
+        <button id="type-d" name="estado">Tipo D</button>
+        <button id="type-e" name="estado">Tipo E</button>
+         <!-- Aqui vamos a iterar el name de este div para los tipos mas sin embargo
+        los colores se estan dando defenidos no tenemos campo color en la base de datos -->
     </div>
+
 
     <div class="date-selection">
         <label for="start-date">Fecha de inicio:</label>
@@ -56,15 +58,13 @@
     </div>
     <div>
         <form action="">
+            <label for="file-upload">Subir archivo PDF:</label>
             <div class="file-upload">
-                <label for="file-upload">Subir archivo PDF:</label>
                 <input type="file" id="file-upload" name="file-upload" accept="application/pdf">
-                <button type="submit" class="boton">Enviar datos</button>
             </div>
+            <button type="submit" class="boton">Enviar datos</button>
         </form>
     </div>
-
-
 <script>
     document.getElementById('type-a').addEventListener('click', () => {
         console.log('Botón Tipo A clickeado');
