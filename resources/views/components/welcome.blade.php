@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botones, Selección de Fechas y Subida de Archivos</title>
+    <title>reservas</title>
     <style>
         .button-container, .file-upload, .date-selection, .status-indicator {
             margin-bottom: 20px;
@@ -23,43 +23,47 @@
             padding: 10px;
             font-size: 16px;
         }
+        .boton{
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+            
+        }
+        .boton:hover{
+            background-color: #2980b9;
+        }
     </style>
 </head>
 <body>
 
-<div class="button-container">
-    <button id="type-a">Tipo A</button>
-    <button id="type-b">Tipo B</button>
-    <button id="type-c">Tipo C</button>
-    <button id="type-d">Tipo D</button>
-    <button id="type-e">Tipo E</button>
-</div>
+    <div class="button-container">
+        <button id="type-a">Tipo A</button>
+        <button id="type-b">Tipo B</button>
+        <button id="type-c">Tipo C</button>
+        <button id="type-d">Tipo D</button>
+        <button id="type-e">Tipo E</button>
+    </div>
 
-<div class="date-selection">
-    <label for="start-date">Fecha de inicio:</label>
-    <input type="date" id="start-date" name="start-date">
-</div>
-<br>
-<div class="date-selection">
-    <label for="end-date">Fecha de salida:</label>
-    <input type="date" id="end-date" name="end-date">
-</div>
+    <div class="date-selection">
+        <label for="start-date">Fecha de inicio:</label>
+        <input type="date" id="start-date" name="start-date">
+    </div>
+    <br>
+    <div class="date-selection">
+        <label for="end-date">Fecha de salida:</label>
+        <input type="date" id="end-date" name="end-date">
+    </div>
+    <div>
+        <form action="">
+            <div class="file-upload">
+                <label for="file-upload">Subir archivo PDF:</label>
+                <input type="file" id="file-upload" name="file-upload" accept="application/pdf">
+                <button type="submit" class="boton">Enviar datos</button>
+            </div>
+        </form>
+    </div>
 
-<div class="file-upload">
-    <label for="file-upload">Subir archivo PDF:</label>
-    <input type="file" id="file-upload" name="file-upload" accept="application/pdf">
-    <button>
-        Enviar Datos
-    </button>
-</div>
-
-<div class="status-indicator">
-    <label for="status">Estado:</label>
-    <label id="status" name="status">
-        <input type="text" value="Pendiente" readonly></input>
-    </label>
-
-</div>
 
 <script>
     document.getElementById('type-a').addEventListener('click', () => {

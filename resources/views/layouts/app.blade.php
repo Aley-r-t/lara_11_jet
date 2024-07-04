@@ -25,7 +25,7 @@
 
             <!-- Page Heading  esto es la segunda parte de -->
          
-
+                
             <!-- Page Content -->
             <main>
                 {{ $slot }}
